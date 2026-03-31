@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cnpTest/static/css/main.fb1596da.css",
+    "main.js": "/cnpTest/static/js/main.1dacac9e.js",
+    "static/js/453.1f5937d9.chunk.js": "/cnpTest/static/js/453.1f5937d9.chunk.js",
+    "static/media/shiba.glb": "/cnpTest/static/media/shiba.3db032cc5da0a1818cd4.glb",
+    "index.html": "/cnpTest/index.html",
+    "main.fb1596da.css.map": "/cnpTest/static/css/main.fb1596da.css.map",
+    "main.1dacac9e.js.map": "/cnpTest/static/js/main.1dacac9e.js.map",
+    "453.1f5937d9.chunk.js.map": "/cnpTest/static/js/453.1f5937d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb1596da.css",
+    "static/js/main.1dacac9e.js"
+  ]
+}
