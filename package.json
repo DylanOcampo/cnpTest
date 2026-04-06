@@ -2,6 +2,7 @@
   "name": "cnptest",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://coolnerdypipoltech.github.io/cnpTest/",
   "dependencies": {
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.5.0",
@@ -9,9 +10,13 @@
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
     "@testing-library/user-event": "^13.5.0",
+    "clsx": "^2.1.1",
+    "ghpages": "^0.0.10",
+    "motion": "^12.38.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-scripts": "5.0.1",
+    "tailwind-merge": "^3.5.0",
     "three": "^0.183.2",
     "web-vitals": "^2.1.4"
   },
@@ -19,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

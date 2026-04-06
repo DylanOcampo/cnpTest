@@ -1,10 +1,14 @@
 import "./App.css";
+import { HeroParallax } from "./components/ui/hero-parallax";
 import Section1 from "./Section1";
 import Section2 from "./Section2";
 import Section3 from "./Section3";
 import Section4 from "./Section4";
 import Section5 from "./Section5";
-
+import Section6 from "./Section6";
+import Section7 from "./Section7";
+import Section8 from "./Section8";
+import { Section9 } from "./Section9";
 function App() {
   return (
     <>
@@ -13,6 +17,10 @@ function App() {
       <Section3></Section3>
       <Section5></Section5>
       <Section4></Section4>
+      <Section6></Section6>
+      <Section7></Section7>
+      <Section8></Section8>
+      <Section9></Section9>
       <div style={{ padding: "75% 0 0 0", position: "relative" }}>
         <iframe
           src="https://player.vimeo.com/video/1178566213?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1"
