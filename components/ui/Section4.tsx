@@ -6,8 +6,8 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls, useGLTF, Environment } from '@react-three/drei';
 import type { OrbitControls as OrbitControlsImpl } from 'three-stdlib';
 
-const SHIBA_MODEL_URL =
-  '/shiba.glb';
+const basePath = process.env.NODE_ENV === 'production' ? '/cnpTest' : '';
+const SHIBA_MODEL_URL = `${basePath}/shiba.glb`;
 
 interface Option {
   name: string;
