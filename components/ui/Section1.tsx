@@ -76,6 +76,7 @@ function Section1() {
     }
 
     const deltaX = event.clientX - dragData.current.startX;
+    
     setRotationY(dragData.current.startRotation + deltaX * 0.45);
   };
 
